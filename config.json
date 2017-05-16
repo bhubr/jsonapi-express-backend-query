@@ -1,0 +1,16 @@
+{
+  "mysql": {
+    "user": "root",
+    "password": "",
+    "database": "jsonapi_express_backend_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "pgsql": {
+    "user": "bhubr",
+    "password": "BenHub31#",
+    "database": "postgres",
+    "host": "127.0.0.1",
+    "dialect": "pgsql"
+  }
+}

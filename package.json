@@ -1,7 +1,12 @@
 {
+  "name": "jsonapi-express-backend-query",
+  "license": "WTFPL",
+  "version": "0.1.0",
+  "description": "Homebrew lightweight wrappers for mysql and pgsql",
   "dependencies": {
     "bluebird": "^3.5.0",
     "mysql": "^2.13.0",
     "pg": "^6.2.2"
-  }
+  },
+  "files": ["index.js", "lib"]
 }

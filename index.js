@@ -4,6 +4,5 @@ module.exports = function(config) {
     throw new Error("config object's dialect key should be one of (mysql|pgsql) instead of " + config.dialect);
   }
   const { dialect } = config;
-  delete config.dialect;
   return require('./lib/' + dialect)(config);
 }
